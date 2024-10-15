@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    background-color: azure;
+}
+
+header { 
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.nav-lista {
+    display: flex;
+    list-style: none;
+    color: black;
+    font-size: 40px;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+    background-color: black;
+    color: aliceblue;
+}
